@@ -84,11 +84,11 @@ function about_read() {
   
     if (dots.style.display === "none") {
       dots.style.display = 'inline';
-      btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+      btnText.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read More<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a'; 
       moreText.style.display = 'none';
     } else {
       dots.style.display = 'none';
-      btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+      btnText.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read Less<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a>'; 
       moreText.style.display = 'inline';
     }
   }
