@@ -77,7 +77,7 @@ function bscp() {
       moreText.style.display = 'inline';
     }
   }
-function about() {
+function about_read() {
     var dots = document.getElementById("about_dots");
     var moreText = document.getElementById("about_more");
     var btnText = document.getElementById("about_readmore");
