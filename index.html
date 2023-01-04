@@ -54,7 +54,7 @@
         </div>
         <div class="row">
           <div class="col-lg-7">
-            <form class="quote-formS" action="https://formbold.com/s/oPZa9" method="POST" id="contact_presupuesto" onsubmit="show_message()">
+            <form class="quote-formS" action="https://formbold.com/s/oPZa9" method="POST" id="contact_quote" onsubmit="show_message()">
               <div class="row">
                 <div class="col-md">
                   <input type="text" class="form-control" placeholder="Name" required>
@@ -71,7 +71,7 @@
               <div class="form-group">
                 <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
               </div>
-              <button type="submit" class="quote-contact-btn g-recaptcha" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn" data-callback='onSubmit1'>SEND</button>
+              <button type="submit" class="quote-contact-btn g-recaptcha" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn" data-callback='onSubmit1" >SEND</button>
             </form>
           </div>
           <div class="col-lg-5">
@@ -93,7 +93,7 @@
     </div>
     <script>
    function onSubmit1(token) {
-     document.getElementById("contact1").submit();
+     document.getElementById("contact_quote").submit();
    }
  </script>
     <!-- Banner Start -->
@@ -361,6 +361,11 @@
       </div>
     </section>
     <!-- Contact Wrapper Start -->
+  <script>
+   function onSubmit2(token) {
+     document.getElementById("contact_from").submit();
+   }
+ <</script>
     <section id="contact-part" class="contact-wrapper">
       <div class="container">
         <div class="section-title">
@@ -401,11 +406,6 @@
           </div>
         </div>
       </div>
-   <script>
-   function onSubmit2(token) {
-     document.getElementById("contact2").submit();
-   }
- </script>
     </section>
     <footer class="page-footer font-small special-color-dark pt-4" style="padding-left: 0px;">
 
