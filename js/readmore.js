@@ -78,17 +78,17 @@ function bscp() {
     }
   }
 function about_read() {
-    var dots = document.getElementById("about_dots");
-    var moreText = document.getElementById("about_more");
-    var btnText = document.getElementById("about_readmore");
+    var dots2 = document.getElementById("about_dots");
+    var moreText2 = document.getElementById("about_more");
+    var btnText2 = document.getElementById("about_readmore");
   
-    if (dots.style.display === "none") {
-      dots.style.display = 'inline';
-      btnText.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read More<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a'; 
-      moreText.style.display = 'none';
+    if (dots2.style.display === "none") {
+      dots2.style.display = 'inline';
+      btnText2.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read More<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a'; 
+      moreText2.style.display = 'none';
     } else {
-      dots.style.display = 'none';
-      btnText.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read Less<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a>'; 
-      moreText.style.display = 'inline';
+      dots2.style.display = 'none';
+      btnText2.innerHTML = '<a onclick="about_read()" id="about_readmore" class="fadeinleftbig hidden delay6" data-scroll=""><button class="bn30">Read Less<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a>'; 
+      moreText2.style.display = 'inline';
     }
   }
