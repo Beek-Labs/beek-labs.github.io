@@ -16,7 +16,6 @@
     <!-- Sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://beeklabs.com/css/compiledbootstrap4.css">
-     <script src="https://www.google.com/recaptcha/api.js"></script>
   </head>
   <body>
     <!-- Pre Loader -->
@@ -54,7 +53,7 @@
         </div>
         <div class="row">
           <div class="col-lg-7">
-            <form class="quote-formS" action="https://formbold.com/s/oPZa9" method="POST" id="contact_quote" onsubmit="show_message()">
+            <form class="quote-formS" action="https://formbold.com/s/oPZa9" method="POST" id="contact_presupuesto" onsubmit="show_message()">
               <div class="row">
                 <div class="col-md">
                   <input type="text" class="form-control" placeholder="Name" required>
@@ -71,7 +70,8 @@
               <div class="form-group">
                 <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
               </div>
-              <button type="submit" class="quote-contact-btn g-recaptcha" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn" data-callback='onSubmit1" >SEND</button>
+              <div class="g-recaptcha captcha-css" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn"></div>
+              <button type="submit" class="quote-contact-btn">SEND</button>
             </form>
           </div>
           <div class="col-lg-5">
@@ -91,11 +91,6 @@
         </div>
       </div>
     </div>
-    <script>
-   function onSubmit1(token) {
-     document.getElementById("contact_quote").submit();
-   }
- </script>
     <!-- Banner Start -->
     <section id="banner-part" class="hero-section pt-100 background-img" ">
       <div class="container">
@@ -361,11 +356,6 @@
       </div>
     </section>
     <!-- Contact Wrapper Start -->
-  <script>
-   function onSubmit2(token) {
-     document.getElementById("contact_from").submit();
-   }
- <</script>
     <section id="contact-part" class="contact-wrapper">
       <div class="container">
         <div class="section-title">
@@ -376,6 +366,7 @@
           <div class="col-md-6">
             <div class="contact-us-form">
               <h4>Ready to get started?</h4>
+              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
               <form action="https://formbold.com/s/91AE9" method="POST" id="contact_from" class="contact-us-form" onsubmit="show_message()">
                 <div class="form-row">
                   <div class="col-12">
@@ -393,8 +384,9 @@
                       <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message" required></textarea>
                     </div>
                   </div>
-                  <div class="col-sm-12">            
-                    <button type="submit" class="btn btn-outline-purple g-recaptcha" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn" data-callback='onSubmit2' id="contact2"> Send Message </button>
+                  <div class="col-sm-12">
+                    <div class="g-recaptcha captcha-css" data-sitekey="6LcYGswjAAAAABnmSYsIcqN8tJxYAVa7644SnBxn"></div>
+                    <button type="submit" class="btn btn-outline-purple" id="btnContactUs"> Send Message </button>
                   </div>
                 </div>
               </form>
