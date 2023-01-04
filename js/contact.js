@@ -1,3 +1,5 @@
+function onSubmit1(token) {
+     document.getElementById("contact_quote").submit();
 document.getElementById('contact_quote').addEventListener('submit', function(event) {
     // Prevenir la redirección del formulario
     event.preventDefault();
@@ -11,6 +13,9 @@ document.getElementById('contact_quote').addEventListener('submit', function(eve
     // Enviar la petición
     xhr.send(new FormData(event.target));
   });
+ }
+function onSubmit2(token) {
+         document.getElementById("contact_from").submit();
   document.getElementById('contact_from').addEventListener('submit', function(event) {
     // Prevenir la redirección del formulario
     event.preventDefault();
@@ -23,7 +28,7 @@ document.getElementById('contact_quote').addEventListener('submit', function(eve
   
     // Enviar la petición
     xhr.send(new FormData(event.target));
-  });
+  });}
 function show_message(){
     Swal.fire({
         icon: 'success',
