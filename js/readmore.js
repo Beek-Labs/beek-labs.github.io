@@ -77,3 +77,18 @@ function bscp() {
       moreText.style.display = 'inline';
     }
   }
+function about() {
+    var dots = document.getElementById("about_dots");
+    var moreText = document.getElementById("about_more");
+    var btnText = document.getElementById("about_readmore");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = 'inline';
+      btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+      moreText.style.display = 'none';
+    } else {
+      dots.style.display = 'none';
+      btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+      moreText.style.display = 'inline';
+    }
+  }
