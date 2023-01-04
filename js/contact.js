@@ -1,4 +1,4 @@
-document.getElementById('contact_presupuesto').addEventListener('submit', function(event) {
+document.getElementById('contact_quote').addEventListener('submit', function(event) {
     // Prevenir la redirección del formulario
     event.preventDefault();
   
