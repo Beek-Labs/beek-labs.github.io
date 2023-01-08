@@ -1,3 +1,18 @@
+function about_read() {
+  var dots = document.getElementById("about_dots");
+  var moreText = document.getElementById("about_more");
+  var btnText= document.getElementById("about_readmore");
+  if (dots.style.display === "none") {
+    dots.style.display = 'inline';
+    btnText.innerHTML = '<button class="bn30">Read More<i class="fa fa-angle-right ml-2" aria-hidden="true"></i></button></a'; 
+    moreText.style.display = 'none';
+  } else {
+    dots.style.display = 'none';
+    btnText.innerHTML = '<button class="bn30">Read Less<i class="fa fa-angle-left ml-2" aria-hidden="true"></i></button></a>'; 
+    moreText.style.display = 'inline';
+  }
+}
+
 function bscp() {
   var dots = document.getElementById("dots_1");
   var moreText = document.getElementById("more_1");
