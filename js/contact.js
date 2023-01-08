@@ -9,7 +9,7 @@ function verificarCaptcha() {
     }
 
     // Si la respuesta es válida, enviar el formulario
-    var formulario = document.getElementById("formulario");
+    var formulario = document.getElementById("contact_form");
     formulario.submit();
 }
 function captchaVerificado() {
