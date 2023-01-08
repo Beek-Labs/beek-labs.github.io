@@ -20,11 +20,11 @@ function bscp() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
@@ -36,11 +36,11 @@ function csplus() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
@@ -52,11 +52,11 @@ function ccna() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
@@ -68,11 +68,11 @@ function cce() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More>'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
@@ -84,11 +84,11 @@ function itla() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
@@ -100,11 +100,11 @@ function salle() {
 
   if (dots.style.display === "none") {
     dots.style.display = 'inline';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-right"></i>'; 
+    btnText.innerHTML = 'Read More'; 
     moreText.style.display = 'none';
   } else {
     dots.style.display = 'none';
-    btnText.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i>'; 
+    btnText.innerHTML = 'Read Less'; 
     moreText.style.display = 'inline';
   }
 }
