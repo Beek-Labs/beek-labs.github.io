@@ -9,8 +9,8 @@ function verificarCaptcha() {
     }
 
     // Si la respuesta es válida, enviar el formulario
-  document.getElementById("contact_from").submit();
-  document.getElementById('contact_from').addEventListener('submit', function(event) {
+  document.getElementById("contact_form").submit();
+  document.getElementById('contact_form').addEventListener('submit', function(event) {
     // Prevenir la redirección del formulario
     event.preventDefault();
   
@@ -23,4 +23,9 @@ function verificarCaptcha() {
     // Enviar la petición
     xhr.send(new FormData(event.target));
   });
+}
+function captchaVerificado() {
+    // Habilitar el botón de envío del formulario
+    var botonEnviar = document.querySelector("#contact_form button[type=button]");
+    botonEnviar.disabled = false;
 }
