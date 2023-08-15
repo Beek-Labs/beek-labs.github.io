@@ -137,7 +137,7 @@ li {
     padding-bottom: 5px;
     text-transform: capitalize;
     display: block;
-	color:#fb4567;
+    color: #1352c1;
 }
 .section-title h2 {
     font-size: 36px;
@@ -351,7 +351,7 @@ header.header-fixed .header .navbar-nav .nav-item .nav-link {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	background-color: #fb4567;
+	background-color: #3549da;
 	margin-left: 48px;
 }
 /** Quote Part **/
@@ -485,8 +485,8 @@ header.header-fixed .header .navbar-nav .nav-item .nav-link {
 .background-img::before {
 	position: absolute;
 	content: '';
-	background-color: #2e338a;
-	background-image: linear-gradient(19deg, #0b0122 42%, #260260 73%);
+	background-color: #0b3790;
+	background-image: linear-gradient(19deg, #073b9d 42%, #021655 73%);
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -556,20 +556,20 @@ top:10px
 	font-size: 16px;
 	-webkit-transform: translate(0);
 	transform: translate(0);
-	background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+	background: #3549da;
 	padding: 0.7em 2em;
 	border-radius: 65px;
 	box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
 	-webkit-transition: box-shadow 0.25s;
 	transition: box-shadow 0.25s;
 	color: white;
-  }
+	}
   
   .bn30 .text {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+	background-image: linear-gradient(45deg, #4568dc, #2463ee);
   }
   
   .bn30:after {
@@ -582,16 +582,16 @@ top:10px
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-	background: #1f204e;
-  }
+	background: #0a2f57;
+	}
   
   .bn30:hover {
-	background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+	background-image: linear-gradient(-45deg, #4568dc, #2463ee);
 	box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
   }
   
   .bn30:hover .text {
-	background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+	background-image: linear-gradient(-45deg, #4568dc, #2463ee);
   }
   #more_1,#more_2,#more_3,#more_4,#more_5,#more_6,#about_more {display: none;}
   .readmore_certs {
@@ -695,7 +695,7 @@ top:10px
 	font-weight: 700;
 }
 .single-features-light h4 a {
-	color: #283a5e;
+	color: #082c81;
 }
 .single-features-light p {
 	padding: 0 20px;
@@ -718,7 +718,7 @@ top:10px
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 32px;
-	color: #fb4567;
+	color: #3549da;
 }
 /*
 ================================================
@@ -743,7 +743,7 @@ top:10px
 	padding-bottom: 12px;
 	text-transform: capitalize;
 	display: block;
-	color: #fb4567;
+	color: #1352c1;
 }
 .about-item h3 {
 	font-size: 30px;
@@ -865,7 +865,7 @@ top:10px
 	display: inline-block;
 	width: 70px;
 	height: 70px;
-	background: #230056;
+	background: #0b3174;
 	border-radius: .25rem;
 	color:#fff;
 }
@@ -926,7 +926,7 @@ top:10px
 	background: #ffffff;
 }
 .color-primary {
-	color: #6C00b5;
+	color: #0b3174;
 }
 /*
 ================================================
@@ -1276,7 +1276,7 @@ top:10px
 }
 .navbar-collapse {
 	background-color: #fb4567;
-	background: #fb4567;
+	background: #12459e;
 	width: 100%;
 	height: 100vh;
 	position: fixed;
@@ -1324,7 +1324,7 @@ header.header-fixed .header .navbar-nav .nav-item .nav-link {
 }
 .header .quote-btn {
 	display: inline-block;
-	background-color: #fb4567;
+	background-color: #3596da;
 	color: #fff;
 	padding: 10px 0;
 	border-radius: 5px;
