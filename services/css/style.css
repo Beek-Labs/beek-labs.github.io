@@ -1506,3 +1506,8 @@ header.header-fixed .header .navbar-nav .nav-item .nav-link {
 	display:none;
 }
 }
+
+ul {
+  list-style-type: disc; /* sets the bullet point style */
+  padding-left: 20px; /* adds space between the bullet and the content */
+}
