@@ -70,8 +70,8 @@ i {
 	transition: all 0.3s ease-in-out 0s;
 }
 ul {
-	list-style-type: disc;
-	margin: 20px;
+	list-style: outside none none;
+	margin: 0;
 	padding: 0;
 }
 li {
