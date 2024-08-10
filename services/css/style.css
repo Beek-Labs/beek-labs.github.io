@@ -70,7 +70,6 @@ i {
 	transition: all 0.3s ease-in-out 0s;
 }
 ul {
-	list-style: outside none none;
 	list-style-type: disc;
 	margin: 20px;
 	padding: 0;
